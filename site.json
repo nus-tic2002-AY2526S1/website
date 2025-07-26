@@ -3,7 +3,7 @@
   "titlePrefix": "TIC2002",
   "style": {
     "codeTheme": "light",
-    "codeLineNumbers": true
+    "codeLineNumbers": false
   },
   "timeZone": "Asia/Singapore",
   "disableHtmlBeautify": true,
@@ -55,7 +55,7 @@
   "intrasiteLinkValidation": {
     "enabled": false
   },
-  "enableSearch": true,
+  "enableSearch": false,
   "headingIndexingLevel": 5,
   "plugins": ["filterTags", "algolia", "codeBlockCopyButtons", "codeBlockWrapButtons", "dataTable", "mermaid"],
   "pluginsContext": {
