@@ -60,7 +60,7 @@
   "plugins": ["filterTags", "algolia", "codeBlockCopyButtons", "codeBlockWrapButtons", "dataTable", "mermaid"],
   "pluginsContext": {
     "filterTags" : {
-      "tags": ["m--tic2002"]
+      "tags": ["m--tic2002", "git-mastery"]
     },
     "mermaid": {
        "address": "https://unpkg.com/mermaid@11.7.0/dist/mermaid.esm.min.mjs"
