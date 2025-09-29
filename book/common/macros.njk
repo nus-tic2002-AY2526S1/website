@@ -251,6 +251,26 @@
 </div>
 </div>
 
+{%- endmacro %}
+{% set border %}
+<div class="flex-shrink-0 d-flex flex-column justify-content-end" style="border-right: 1px dotted grey;">
+</div>
+{% endset %}
+<!-- ============================================================ -->
+
+{% macro show_multiple_columns(cell_contents) -%}
+<div class="d-flex flex-column flex-md-row align-items-stretch justify-content-start gap-2">
+{% for c in cell_contents %}
+{% if c == '|' %}
+{{ border }}
+{% else %}
+<div class="flex-shrink-0 d-flex flex-column justify-content-end">
+
+{{ c }}
+</div>
+{% endif %}
+{% endfor %}
+</div>
 
 {%- endmacro %}
 <!-- ============================================================ -->
@@ -576,7 +596,7 @@ The sandbox will be set up inside the `gitmastery-exercises/{{ identifier }}` fo
 <div class="border border-success pt-2 ps-2 pb-1 pe-1 border-bottom-0 rounded-top" style="background-color: #e6fff2">
 Target usage: <include src="{{ tour.folder }}/text.md#destination" trim inline/>
 <p/>
-<small>This use case is covered by,</small>
+<small>This usage is covered by,</small>
 </div>
 
 &nbsp;&nbsp;&nbsp;&nbsp;→ **[<md>++{{ tour.title }}++</md>]({{ tour_page }})**
