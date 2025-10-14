@@ -1,0 +1,4 @@
+2025-10-14T13:30:19.864Z - info: Website generation started at 21:30:18
+2025-10-14T13:30:20.461Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2526S1!website.git/book/_markbind/variables.md'
+2025-10-14T13:30:20.461Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2526S1!website.git/_markbind/variables.md'
+2025-10-14T13:30:20.483Z - info: Building assets...
